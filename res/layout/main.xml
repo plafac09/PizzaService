@@ -20,5 +20,12 @@
             android:layout_height="wrap_content"
             android:text="BITTEEEEE!!"
             />
+    <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Gehts nd Maci? :P"
+            android:textSize="42"
+            />
+
 </LinearLayout>
 
