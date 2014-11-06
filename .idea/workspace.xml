@@ -23,7 +23,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8e9ba853-023a-4928-bcbb-b7851062e2d1" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/layout/main.xml" afterPath="$PROJECT_DIR$/res/layout/main.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="PizzaService.iws" />
@@ -54,7 +53,7 @@
           </provider>
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.57954544" vertical-offset="0" max-vertical-offset="510">
-              <caret line="15" column="41" selection-start-line="15" selection-start-column="41" selection-end-line="15" selection-end-column="41" />
+              <caret line="15" column="44" selection-start-line="15" selection-start-column="44" selection-end-line="15" selection-end-column="44" />
               <folding />
             </state>
           </provider>
@@ -441,17 +440,21 @@
       <workItem from="1415277579051" duration="11000" />
       <workItem from="1415278025272" duration="543000" />
       <workItem from="1415280269421" duration="84000" />
-      <workItem from="1415280470078" duration="261000" />
+      <workItem from="1415280470078" duration="321000" />
     </task>
     <task id="LOCAL-00001" summary="Haha">
       <created>1415280500097</created>
       <updated>1415280500097</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Gay">
+      <created>1415280750725</created>
+      <updated>1415280750725</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="899000" />
+    <option name="totallyTimeSpent" value="959000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
@@ -504,7 +507,8 @@
       <TodoPanelSettings />
     </option>
     <MESSAGE value="Haha" />
-    <option name="LAST_COMMIT_MESSAGE" value="Haha" />
+    <MESSAGE value="Gay" />
+    <option name="LAST_COMMIT_MESSAGE" value="Gay" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -542,7 +546,7 @@
       </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.57954544" vertical-offset="0" max-vertical-offset="510">
-          <caret line="15" column="41" selection-start-line="15" selection-start-column="41" selection-end-line="15" selection-end-column="41" />
+          <caret line="15" column="44" selection-start-line="15" selection-start-column="44" selection-end-line="15" selection-end-column="44" />
           <folding />
         </state>
       </provider>
