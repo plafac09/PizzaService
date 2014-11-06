@@ -13,7 +13,7 @@
     <Button
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
-            android:text="Funktioniere, Github!!"
+            android:text="Haha, Github!!"
             />
     <Button
             android:layout_width="fill_parent"
