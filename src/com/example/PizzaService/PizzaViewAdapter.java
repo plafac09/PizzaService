@@ -1,9 +1,11 @@
 package com.example.PizzaService;
 
 import android.content.Context;
+import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.BaseAdapter;
+import android.widget.TextView;
 
 /**
  * Created by user on 04.12.2014.
@@ -36,6 +38,24 @@ public class PizzaViewAdapter extends BaseAdapter {
 
     @Override
     public View getView(int position, View convertView, ViewGroup parent) {
-        return null;
+        LayoutInflater inflater = (LayoutInflater)context.getSystemService(Context.LAYOUT_INFLATER_SERVICE);
+
+        View gridView;
+
+        if(convertView == null)
+        {
+            gridView = new View(context);
+            gridView = inflater.inflate(R.layout.pizzaitem,null);
+        }else
+        {
+            gridView= convertView;
+        }
+        TextView textview = (TextView) gridView.findViewById(R.id.pizzaitem);
+
+        textview.setText(stringData[position]);
+
+
+
+        return gridView;
     }
 }
