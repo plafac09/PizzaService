@@ -10,28 +10,5 @@
             android:text="Hello World, Funktioniere, Github!!"
             />
 
-    <Button
-            android:layout_width="fill_parent"
-            android:layout_height="wrap_content"
-            android:text="Nauschi geil!!"
-            />
-    <Button
-            android:layout_width="fill_parent"
-            android:layout_height="wrap_content"
-            android:text="BITTEEEEE!!"
-            />
-    <TextView
-            android:layout_width="fill_parent"
-            android:layout_height="wrap_content"
-            android:text="Gehts nd Maci? :P"
-            android:textSize="140px"
-            />
-    <TextView
-            android:layout_width="232dp"
-            android:layout_height="wrap_content"
-            android:textAppearance="?android:attr/textAppearanceMedium"
-            android:text="SEAS :)"
-            android:id="@+id/textView" android:layout_weight="0.27"/>
-
 </LinearLayout>
 
