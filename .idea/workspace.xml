@@ -35,19 +35,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8e9ba853-023a-4928-bcbb-b7851062e2d1" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/layout/pizzaitem.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/PizzaService/PizzaService.apk" afterPath="$PROJECT_DIR$/out/production/PizzaService/PizzaService.apk" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/PizzaService/com/example/PizzaService/R$attr.class" afterPath="$PROJECT_DIR$/out/production/PizzaService/com/example/PizzaService/R$attr.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/PizzaService/com/example/PizzaService/R$drawable.class" afterPath="$PROJECT_DIR$/out/production/PizzaService/com/example/PizzaService/R$drawable.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/PizzaService/com/example/PizzaService/R$layout.class" afterPath="$PROJECT_DIR$/out/production/PizzaService/com/example/PizzaService/R$layout.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/PizzaService/com/example/PizzaService/R$string.class" afterPath="$PROJECT_DIR$/out/production/PizzaService/com/example/PizzaService/R$string.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/PizzaService/com/example/PizzaService/R.class" afterPath="$PROJECT_DIR$/out/production/PizzaService/com/example/PizzaService/R.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gen/com/example/PizzaService/BuildConfig.java" afterPath="$PROJECT_DIR$/gen/com/example/PizzaService/BuildConfig.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/example/PizzaService/PizzaMainActivity.java" afterPath="$PROJECT_DIR$/src/com/example/PizzaService/PizzaMainActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/example/PizzaService/PizzaViewAdapter.java" afterPath="$PROJECT_DIR$/src/com/example/PizzaService/PizzaViewAdapter.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/layout/main.xml" afterPath="$PROJECT_DIR$/res/layout/main.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/layout/pizzamain.xml" afterPath="$PROJECT_DIR$/res/layout/pizzamain.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/values/strings.xml" afterPath="$PROJECT_DIR$/res/values/strings.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="PizzaService.iws" />
@@ -80,8 +74,8 @@
             <state />
           </provider>
           <provider editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="357">
-              <caret line="13" column="6" selection-start-line="13" selection-start-column="6" selection-end-line="13" selection-end-column="6" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="459">
+              <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -93,8 +87,8 @@
             <state />
           </provider>
           <provider editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="442">
-              <caret line="6" column="41" selection-start-line="6" selection-start-column="41" selection-end-line="6" selection-end-column="41" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="493">
+              <caret line="9" column="37" selection-start-line="9" selection-start-column="37" selection-end-line="9" selection-end-column="37" />
               <folding />
             </state>
           </provider>
@@ -116,8 +110,8 @@
       <file leaf-file-name="PizzaMainActivity.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/example/PizzaService/PizzaMainActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.58979595" vertical-offset="0" max-vertical-offset="680">
-              <caret line="24" column="0" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.44489795" vertical-offset="207" max-vertical-offset="697">
+              <caret line="32" column="35" selection-start-line="32" selection-start-column="35" selection-end-line="32" selection-end-column="35" />
               <folding />
             </state>
           </provider>
@@ -632,7 +626,7 @@
       <workItem from="1417093372607" duration="74000" />
       <workItem from="1417693169331" duration="2684000" />
       <workItem from="1417697823089" duration="391000" />
-      <workItem from="1417699429775" duration="3815000" />
+      <workItem from="1417699429775" duration="4321000" />
     </task>
     <task id="LOCAL-00001" summary="Haha">
       <created>1415280886157</created>
@@ -658,11 +652,17 @@
       <option name="project" value="LOCAL" />
       <updated>1417698086483</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Added pizzamain.xml and new Adapter">
+      <created>1417703261946</created>
+      <option name="number" value="00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1417703261946</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9203000" />
+    <option name="totallyTimeSpent" value="9709000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
@@ -689,7 +689,7 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.328125" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32552084" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Android" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32552084" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24875" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Memory Monitor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -921,14 +921,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/res/values/strings.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-4.08" vertical-offset="0" max-vertical-offset="289">
-          <caret line="6" column="22" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/example/PizzaService/PizzaViewAdapter.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="530" max-vertical-offset="1071">
@@ -941,13 +933,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/res/layout/pizzamain.xml">
-      <provider selected="true" editor-type-id="android-designer">
-        <state />
-      </provider>
-      <provider editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="442">
-          <caret line="6" column="41" selection-start-line="6" selection-start-column="41" selection-end-line="6" selection-end-column="41" />
+    <entry file="file://$PROJECT_DIR$/res/values/strings.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-4.08" vertical-offset="0" max-vertical-offset="289">
+          <caret line="6" column="22" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="22" />
           <folding />
         </state>
       </provider>
@@ -957,16 +946,27 @@
         <state />
       </provider>
       <provider editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="357">
-          <caret line="13" column="6" selection-start-line="13" selection-start-column="6" selection-end-line="13" selection-end-column="6" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="459">
+          <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/layout/pizzamain.xml">
+      <provider selected="true" editor-type-id="android-designer">
+        <state />
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="493">
+          <caret line="9" column="37" selection-start-line="9" selection-start-column="37" selection-end-line="9" selection-end-column="37" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/example/PizzaService/PizzaMainActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.58979595" vertical-offset="0" max-vertical-offset="680">
-          <caret line="24" column="0" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.44489795" vertical-offset="207" max-vertical-offset="697">
+          <caret line="32" column="35" selection-start-line="32" selection-start-column="35" selection-end-line="32" selection-end-column="35" />
           <folding />
         </state>
       </provider>
