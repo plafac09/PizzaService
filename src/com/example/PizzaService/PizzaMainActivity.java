@@ -22,7 +22,7 @@ public class PizzaMainActivity extends Activity {
      * Called when the activity is first created.
      */
     private View pizzamain;
-    private LinkedList<Pizza> lili = new LinkedList<Pizza>();
+    private LinkedList<Pizza> pizzaList = new LinkedList<Pizza>();
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
@@ -39,11 +39,9 @@ public class PizzaMainActivity extends Activity {
 
     public void showPizzaList()
     {
-
+        System.out.println("<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<"+pizzaList.size());
         GridView gridView = (GridView) findViewById(R.id.pizzaView);
-
-        String[] pizzen = getResources().getStringArray(R.array.pizzen);
-        PizzaViewAdapter adapter = new PizzaViewAdapter(pizzamain.getContext(), pizzen);
+        PizzaViewAdapter adapter = new PizzaViewAdapter(pizzamain.getContext(), pizzaList);
 
         gridView.setAdapter(adapter);
 
@@ -57,9 +55,9 @@ public class PizzaMainActivity extends Activity {
             BufferedReader br = new BufferedReader(isr);
 
             String line;
-            while ((line = br.readLine()) != null && !(line = br.readLine()).isEmpty())
+            while ((line = br.readLine()) != null && !(line.isEmpty()))
             {
-                lili.add(new Pizza(line.split(";")[0], line.split(";")[1], Double.parseDouble(line.split(";")[2])));
+                pizzaList.add(new Pizza(line.split(";")[0], line.split(";")[1], Double.parseDouble(line.split(";")[2])));
             }
         } catch (IOException e) {
 

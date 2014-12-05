@@ -6,6 +6,9 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.BaseAdapter;
 import android.widget.TextView;
+import beans.Pizza;
+
+import java.util.LinkedList;
 
 /**
  * Created by user on 04.12.2014.
@@ -13,22 +16,22 @@ import android.widget.TextView;
 public class PizzaViewAdapter extends BaseAdapter {
 
     private  final Context context;
-    private  final String[] stringData;
+    private LinkedList<Pizza> pizzaList;
 
-    public PizzaViewAdapter(Context context, String[] stringData) {
+    public PizzaViewAdapter(Context context, LinkedList<Pizza> pizzaList) {
         this.context= context;
-        this.stringData = stringData;
+        this.pizzaList = pizzaList;
     }
 
 
     @Override
     public int getCount() {
-        return stringData.length;
+        return pizzaList.size();
     }
 
     @Override
     public Object getItem(int position) {
-        return stringData[position];
+        return pizzaList.get(position);
     }
 
     @Override
@@ -41,10 +44,9 @@ public class PizzaViewAdapter extends BaseAdapter {
         LayoutInflater inflater = (LayoutInflater)context.getSystemService(Context.LAYOUT_INFLATER_SERVICE);
 
         View gridView;
-
+        System.out.println("<<<<<<<<<<<<<<<<<<<<<<<<<<<<ssaa"+position);
         if(convertView == null)
         {
-            gridView = new View(context);
             gridView = inflater.inflate(R.layout.pizzaitem,null);
         }else
         {
@@ -52,9 +54,9 @@ public class PizzaViewAdapter extends BaseAdapter {
         }
         TextView textview = (TextView) gridView.findViewById(R.id.pizzaitem);
 
-        textview.setText(stringData[position]);
+        Pizza aktPizza = pizzaList.get(position);
 
-
+        textview.setText(aktPizza.toString());
 
         return gridView;
     }
