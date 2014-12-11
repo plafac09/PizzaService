@@ -39,7 +39,6 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/PizzaService/com/example/PizzaService/R$layout.class" afterPath="$PROJECT_DIR$/out/production/PizzaService/com/example/PizzaService/R$layout.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/PizzaService/com/example/PizzaService/R$string.class" afterPath="$PROJECT_DIR$/out/production/PizzaService/com/example/PizzaService/R$string.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/PizzaService/com/example/PizzaService/R.class" afterPath="$PROJECT_DIR$/out/production/PizzaService/com/example/PizzaService/R.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/layout/pizzamain.xml" afterPath="$PROJECT_DIR$/res/layout/pizzamain.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="PizzaService.iws" />
@@ -651,7 +650,7 @@
       <workItem from="1417697823089" duration="391000" />
       <workItem from="1417699429775" duration="6082000" />
       <workItem from="1417770367530" duration="58000" />
-      <workItem from="1418300746426" duration="8865000" />
+      <workItem from="1418300746426" duration="8873000" />
     </task>
     <task id="LOCAL-00001" summary="Haha">
       <created>1415280886157</created>
@@ -719,11 +718,17 @@
       <option name="project" value="LOCAL" />
       <updated>1418308024579</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Design Changes">
+      <created>1418309634002</created>
+      <option name="number" value="00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1418309634002</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="20393000" />
+    <option name="totallyTimeSpent" value="20401000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
