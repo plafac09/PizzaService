@@ -60,7 +60,7 @@ public class PizzaViewAdapter extends BaseAdapter {
             gridView.setBackgroundColor(Color.BLUE);
         }else
         {
-            gridView.setBackgroundColor(Color.RED);
+            gridView.setBackgroundColor(Color.MAGENTA);
         }
         TextView nameTV = (TextView) gridView.findViewById(R.id.pizzaItemName);
         TextView preisTV = (TextView) gridView.findViewById(R.id.pizzaItemPreis);
@@ -70,7 +70,6 @@ public class PizzaViewAdapter extends BaseAdapter {
         anzNP.setMinValue(0);
         nameTV.setText(aktPizza.getName());
         preisTV.setText(String.format("%5.2f€",aktPizza.getPreis()));
-
         return gridView;
     }
 }

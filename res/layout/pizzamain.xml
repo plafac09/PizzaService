@@ -6,20 +6,19 @@
               android:layout_height="match_parent"
               android:id="@+id/pizzamain"
         >
-    <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
-              android:text="hasihfiah"
-            />
+
+    <Button android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="Bestellen"/>
+
+
 
     <GridView android:layout_width="fill_parent"
-              android:layout_height="fill_parent"
+              android:layout_height="wrap_content"
               android:id="@+id/pizzaView"
               android:gravity="center"
               android:numColumns="1"
               android:stretchMode="columnWidth"
-
             >
-
-
     </GridView>
+
 
 </LinearLayout>
