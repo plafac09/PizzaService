@@ -1,18 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
               android:orientation="vertical"
               android:layout_width="match_parent"
               android:layout_height="match_parent"
               android:id="@+id/pizzamain"
         >
 
-    <Button android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="Bestellen"/>
 
 
-
-    <GridView android:layout_width="fill_parent"
+    <GridView android:layout_width="wrap_content"
               android:layout_height="wrap_content"
+              android:layout_above="@+id/btBestellen"
               android:id="@+id/pizzaView"
               android:gravity="center"
               android:numColumns="1"
@@ -21,4 +20,12 @@
     </GridView>
 
 
-</LinearLayout>
+    <Button android:id="@+id/btBestellen"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:text="Bestellen"/>
+
+
+</RelativeLayout>
