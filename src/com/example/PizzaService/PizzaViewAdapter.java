@@ -1,10 +1,12 @@
 package com.example.PizzaService;
 
 import android.content.Context;
+import android.graphics.Color;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.BaseAdapter;
+import android.widget.NumberPicker;
 import android.widget.TextView;
 import beans.Pizza;
 
@@ -44,7 +46,7 @@ public class PizzaViewAdapter extends BaseAdapter {
         LayoutInflater inflater = (LayoutInflater)context.getSystemService(Context.LAYOUT_INFLATER_SERVICE);
 
         View gridView;
-        System.out.println("<<<<<<<<<<<<<<<<<<<<<<<<<<<<ssaa"+position);
+
         if(convertView == null)
         {
             gridView = inflater.inflate(R.layout.pizzaitem,null);
@@ -52,11 +54,22 @@ public class PizzaViewAdapter extends BaseAdapter {
         {
             gridView= convertView;
         }
-        TextView textview = (TextView) gridView.findViewById(R.id.pizzaitem);
 
+        if(position%2==0)
+        {
+            gridView.setBackgroundColor(Color.BLUE);
+        }else
+        {
+            gridView.setBackgroundColor(Color.RED);
+        }
+        TextView nameTV = (TextView) gridView.findViewById(R.id.pizzaItemName);
+        TextView preisTV = (TextView) gridView.findViewById(R.id.pizzaItemPreis);
+        NumberPicker anzNP = (NumberPicker) gridView.findViewById(R.id.pizzaItemNP);
         Pizza aktPizza = pizzaList.get(position);
-
-        textview.setText(aktPizza.toString());
+        anzNP.setMaxValue(10);
+        anzNP.setMinValue(0);
+        nameTV.setText(aktPizza.getName());
+        preisTV.setText(String.format("%5.2f€",aktPizza.getPreis()));
 
         return gridView;
     }
