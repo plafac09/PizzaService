@@ -47,7 +47,7 @@ public class PizzaMainActivity extends Activity {
 
     public void loadCSV(AssetManager am) {
         try {
-            InputStream is = am.open("data.csv");
+            InputStream is = am.open("pizzaliste.csv");
             InputStreamReader isr = new InputStreamReader(is, "UTF-8");
             BufferedReader br = new BufferedReader(isr);
 

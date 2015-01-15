@@ -57,10 +57,10 @@ public class PizzaViewAdapter extends BaseAdapter {
 
         if(position%2==0)
         {
-            gridView.setBackgroundColor(Color.BLUE);
+            gridView.setBackgroundColor(Color.rgb(229,200,133));
         }else
         {
-            gridView.setBackgroundColor(Color.MAGENTA);
+            gridView.setBackgroundColor(Color.rgb(230,132,84));
         }
         TextView nameTV = (TextView) gridView.findViewById(R.id.pizzaItemName);
         TextView preisTV = (TextView) gridView.findViewById(R.id.pizzaItemPreis);
