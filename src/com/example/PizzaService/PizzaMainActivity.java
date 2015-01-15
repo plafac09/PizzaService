@@ -5,10 +5,7 @@ import android.content.Context;
 import android.content.pm.ActivityInfo;
 import android.content.res.AssetManager;
 import android.os.Bundle;
-import android.view.LayoutInflater;
-import android.view.View;
-import android.view.ViewGroup;
-import android.view.Window;
+import android.view.*;
 import android.widget.GridView;
 import beans.Pizza;
 
@@ -40,15 +37,12 @@ public class PizzaMainActivity extends Activity {
         showPizzaList();
     }
 
+
     public void showPizzaList()
     {
-        System.out.println("<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<"+pizzaList.size());
         GridView gridView = (GridView) findViewById(R.id.pizzaView);
         PizzaViewAdapter adapter = new PizzaViewAdapter(pizzamain.getContext(), pizzaList);
-
         gridView.setAdapter(adapter);
-
-
     }
 
     public void loadCSV(AssetManager am) {
