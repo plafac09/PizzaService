@@ -44,12 +44,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8e9ba853-023a-4928-bcbb-b7851062e2d1" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable/pizzaicon.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/pizzaliste.csv" />
-      <change type="DELETED" beforePath="D:\Schule\4Klasse\SYP\PizzaDelivery\PizzaService\assets\data.csv" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/PizzaService/PizzaService.apk" afterPath="$PROJECT_DIR$/out/production/PizzaService/PizzaService.apk" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/example/PizzaService/PizzaMainActivity.java" afterPath="$PROJECT_DIR$/src/com/example/PizzaService/PizzaMainActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/example/PizzaService/PizzaViewAdapter.java" afterPath="$PROJECT_DIR$/src/com/example/PizzaService/PizzaViewAdapter.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <list id="9aae603c-1c84-4b9c-8949-a44ed34094c1" name="Failed commit: Default" comment="Test" />
@@ -771,7 +766,7 @@
       <workItem from="1421326290546" duration="797000" />
       <workItem from="1421327103652" duration="269000" />
       <workItem from="1421327415642" duration="183000" />
-      <workItem from="1421327612126" duration="1342000" />
+      <workItem from="1421327612126" duration="1370000" />
     </task>
     <task id="LOCAL-00001" summary="Haha">
       <created>1415280886157</created>
@@ -869,11 +864,17 @@
       <option name="project" value="LOCAL" />
       <updated>1421328245121</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="New CSV">
+      <created>1421328977123</created>
+      <option name="number" value="00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1421328977123</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="29214000" />
+    <option name="totallyTimeSpent" value="29242000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
@@ -934,7 +935,8 @@
     <MESSAGE value="Design Changes" />
     <MESSAGE value="App Icon changed" />
     <MESSAGE value="Test" />
-    <option name="LAST_COMMIT_MESSAGE" value="Test" />
+    <MESSAGE value="New CSV" />
+    <option name="LAST_COMMIT_MESSAGE" value="New CSV" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
