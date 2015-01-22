@@ -66,8 +66,21 @@ public class PizzaMainActivity extends Activity {
 
     public void bestellen(View view)
     {
-        NumberPicker aktNumberPicker = adapter.getNumberPicker(0);
+        LinkedList<Pizza> bestellt = new LinkedList<Pizza>();
+        LinkedList<Pizza> pizzen = adapter.getPizzen();
+        for(int i = 0; i<pizzen.size();i++)
+        {
+            NumberPicker aktNumberPicker = adapter.getNumberPicker(i);
+            if(aktNumberPicker.getValue()!=0)
+            {
+                Pizza aktPizza = pizzen.get(i);
+                aktPizza.setAnz(aktNumberPicker.getValue());
+                System.out.println(aktPizza.toString());
+                bestellt.add(aktPizza);
+            }
 
-        System.out.println("<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<"+aktNumberPicker.getValue());
+        }
+        System.out.println("<<<<<<<<<<<<<<<<<<<<<<<<<<");
+
     }
 }

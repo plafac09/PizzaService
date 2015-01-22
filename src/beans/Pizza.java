@@ -9,6 +9,7 @@ public class Pizza {
     private String zutaten;
     private double preis;
     private String bild;
+    private int anz;
 
     public Pizza(String name, String zutaten, double preis, String bild) {
         this.bild = bild;
@@ -49,8 +50,16 @@ public class Pizza {
         this.bild = bild;
     }
 
+    public int getAnz() {
+        return anz;
+    }
+
+    public void setAnz(int anz) {
+        this.anz = anz;
+    }
+
     @Override
     public String toString() {
-        return String.format("%s %4.2f € %s", name, preis, zutaten);
+        return String.format("%s %4.2f € %s %d", name, preis, zutaten,anz);
     }
 }

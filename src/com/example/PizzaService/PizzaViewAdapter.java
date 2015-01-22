@@ -31,6 +31,8 @@ public class PizzaViewAdapter extends BaseAdapter {
     }
 
 
+
+
     @Override
     public int getCount() {
         return pizzaList.size();
@@ -90,5 +92,10 @@ public class PizzaViewAdapter extends BaseAdapter {
     public NumberPicker getNumberPicker(int position)
     {
         return numberPickers[position];
+    }
+
+    public LinkedList<Pizza> getPizzen()
+    {
+        return pizzaList;
     }
 }
