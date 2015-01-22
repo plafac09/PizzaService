@@ -7,6 +7,7 @@ import android.content.res.AssetManager;
 import android.os.Bundle;
 import android.view.*;
 import android.widget.GridView;
+import android.widget.NumberPicker;
 import beans.Pizza;
 
 import java.io.BufferedReader;
@@ -21,6 +22,7 @@ public class PizzaMainActivity extends Activity {
      */
     private View pizzamain;
     private LinkedList<Pizza> pizzaList = new LinkedList<Pizza>();
+    private PizzaViewAdapter adapter;
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
@@ -40,9 +42,10 @@ public class PizzaMainActivity extends Activity {
 
     public void showPizzaList()
     {
-        GridView gridView = (GridView) findViewById(R.id.pizzaView);
-        PizzaViewAdapter adapter = new PizzaViewAdapter(pizzamain.getContext(), pizzaList);
-        gridView.setAdapter(adapter);
+        GridView pizzaView = (GridView) findViewById(R.id.pizzaView);
+        adapter = new PizzaViewAdapter(pizzamain.getContext(), pizzaList);
+
+        pizzaView.setAdapter(adapter);
     }
 
     public void loadCSV(AssetManager am) {
@@ -59,5 +62,12 @@ public class PizzaMainActivity extends Activity {
         } catch (IOException e) {
 
         }
+    }
+
+    public void bestellen(View view)
+    {
+        NumberPicker aktNumberPicker = adapter.getNumberPicker(0);
+
+        System.out.println("<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<"+aktNumberPicker.getValue());
     }
 }

@@ -22,10 +22,12 @@ public class PizzaViewAdapter extends BaseAdapter {
 
     private  final Context context;
     private LinkedList<Pizza> pizzaList;
+    private NumberPicker[] numberPickers;
 
     public PizzaViewAdapter(Context context, LinkedList<Pizza> pizzaList) {
         this.context= context;
         this.pizzaList = pizzaList;
+        numberPickers = new NumberPicker[pizzaList.size()];
     }
 
 
@@ -77,12 +79,16 @@ public class PizzaViewAdapter extends BaseAdapter {
         Drawable drawable = res.getDrawable(resID);
         bild.setImageDrawable(drawable);
 
-
-
+        numberPickers[position]=anzNP;
         anzNP.setMaxValue(10);
         anzNP.setMinValue(0);
         nameTV.setText(aktPizza.getName());
         preisTV.setText(String.format("%5.2f€",aktPizza.getPreis()));
         return gridView;
+    }
+
+    public NumberPicker getNumberPicker(int position)
+    {
+        return numberPickers[position];
     }
 }
