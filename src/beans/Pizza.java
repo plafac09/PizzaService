@@ -8,8 +8,10 @@ public class Pizza {
     private String name;
     private String zutaten;
     private double preis;
+    private String bild;
 
-    public Pizza(String name, String zutaten, double preis) {
+    public Pizza(String name, String zutaten, double preis, String bild) {
+        this.bild = bild;
         this.name = name;
         this.zutaten = zutaten;
         this.preis = preis;
@@ -37,6 +39,14 @@ public class Pizza {
 
     public void setPreis(double preis) {
         this.preis = preis;
+    }
+
+    public String getBild() {
+        return bild;
+    }
+
+    public void setBild(String bild) {
+        this.bild = bild;
     }
 
     @Override

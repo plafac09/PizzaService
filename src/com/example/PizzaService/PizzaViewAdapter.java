@@ -1,11 +1,14 @@
 package com.example.PizzaService;
 
 import android.content.Context;
+import android.content.res.Resources;
 import android.graphics.Color;
+import android.graphics.drawable.Drawable;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.BaseAdapter;
+import android.widget.ImageView;
 import android.widget.NumberPicker;
 import android.widget.TextView;
 import beans.Pizza;
@@ -62,10 +65,20 @@ public class PizzaViewAdapter extends BaseAdapter {
         {
             gridView.setBackgroundColor(Color.rgb(230,132,84));
         }
+        ImageView bild = (ImageView) gridView.findViewById(R.id.pizzaBild);
         TextView nameTV = (TextView) gridView.findViewById(R.id.pizzaItemName);
         TextView preisTV = (TextView) gridView.findViewById(R.id.pizzaItemPreis);
         NumberPicker anzNP = (NumberPicker) gridView.findViewById(R.id.pizzaItemNP);
         Pizza aktPizza = pizzaList.get(position);
+
+
+        Resources res = gridView.getResources();
+        int resID = res.getIdentifier(aktPizza.getBild() , "drawable", "com.example.PizzaService");
+        Drawable drawable = res.getDrawable(resID);
+        bild.setImageDrawable(drawable);
+
+
+
         anzNP.setMaxValue(10);
         anzNP.setMinValue(0);
         nameTV.setText(aktPizza.getName());

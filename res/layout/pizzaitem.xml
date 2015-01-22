@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
           android:orientation="horizontal"
           android:layout_width="fill_parent"
           android:layout_height="match_parent"
@@ -10,14 +10,19 @@
     <ImageView android:layout_width="wrap_content"
                android:layout_height="fill_parent"
                android:src="@drawable/ic_launcher"
-               android:textAppearance="?android:attr/textAppearanceLarge"
-               android:gravity="center"
-               android:paddingLeft="0dp"
-               android:minHeight="?android:attr/listPreferredItemHeight"
+               android:id="@+id/pizzaBild"
+               android:layout_centerVertical="true"
+               android:layout_alignParentLeft="true"
+               android:paddingLeft="4dp"
                android:paddingRight="0dp"
 
             />
-
+    <LinearLayout android:layout_width="wrap_content"
+                  android:layout_height="fill_parent"
+                  android:orientation="vertical"
+                  android:layout_centerVertical="true"
+                  android:layout_centerHorizontal="true"
+            >
     <TextView android:layout_height="fill_parent"
             android:layout_width="wrap_content"
             android:id="@+id/pizzaItemName"
@@ -26,7 +31,6 @@
             android:paddingLeft="0dp"
             android:minHeight="?android:attr/listPreferredItemHeight"
             android:paddingRight="0dp"
-            android:layout_weight="0.2"
             >
 
     </TextView>
@@ -34,21 +38,21 @@
               android:layout_width="wrap_content"
               android:id="@+id/pizzaItemPreis"
               android:textAppearance="?android:attr/textAppearanceLarge"
-              android:gravity="center"
+              android:gravity="center_horizontal"
               android:paddingLeft="0dp"
               android:minHeight="?android:attr/listPreferredItemHeight"
+
               android:paddingRight="0dp"
             >
-
     </TextView>
+    </LinearLayout>
 
     <NumberPicker android:layout_width="wrap_content"
-                  android:layout_height="fill_parent"
+                  android:layout_height="wrap_content"
                   android:gravity="right"
-
                   android:id="@+id/pizzaItemNP"
+                  android:layout_alignParentRight="true"
             ></NumberPicker>
 
 
-
-</LinearLayout>
+</RelativeLayout>

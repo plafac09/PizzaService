@@ -54,7 +54,7 @@ public class PizzaMainActivity extends Activity {
             String line;
             while ((line = br.readLine()) != null && !(line.isEmpty()))
             {
-                pizzaList.add(new Pizza(line.split(";")[0], line.split(";")[1], Double.parseDouble(line.split(";")[2])));
+                pizzaList.add(new Pizza(line.split(";")[0], line.split(";")[1], Double.parseDouble(line.split(";")[2]), line.split(";")[3]));
             }
         } catch (IOException e) {
 
