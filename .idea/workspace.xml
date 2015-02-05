@@ -39,19 +39,7 @@
     <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="app: com.example.PizzaService" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8e9ba853-023a-4928-bcbb-b7851062e2d1" name="Default" comment="GUI improvement">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SlidingMenuLibrary/SlidingMenuLibrary.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/android_support_v4.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/layout/main_menu.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gen/com/example/PizzaService/BuildConfig.java" afterPath="$PROJECT_DIR$/gen/com/example/PizzaService/BuildConfig.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/example/PizzaService/PizzaMainActivity.java" afterPath="$PROJECT_DIR$/src/com/example/PizzaService/PizzaMainActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PizzaService.iml" afterPath="$PROJECT_DIR$/PizzaService.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/ant.xml" afterPath="$PROJECT_DIR$/.idea/ant.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/layout/main.xml" afterPath="$PROJECT_DIR$/res/layout/main.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project.properties" afterPath="$PROJECT_DIR$/project.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" />
+    <list default="true" id="8e9ba853-023a-4928-bcbb-b7851062e2d1" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <list id="9aae603c-1c84-4b9c-8949-a44ed34094c1" name="Failed commit: Default" comment="Test" />
@@ -838,7 +826,7 @@
       <workItem from="1421327415642" duration="183000" />
       <workItem from="1421327612126" duration="5400000" />
       <workItem from="1421929253048" duration="8786000" />
-      <workItem from="1423144824801" duration="717000" />
+      <workItem from="1423144824801" duration="1007000" />
     </task>
     <task id="LOCAL-00001" summary="Haha">
       <created>1415280886157</created>
@@ -920,11 +908,15 @@
       <created>1421937140544</created>
       <updated>1421937140544</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="Sliding Menu hinzugefügt">
+      <created>1423145738324</created>
+      <updated>1423145738324</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="42775000" />
+    <option name="totallyTimeSpent" value="43065000" />
   </component>
   <component name="TodoView" selected-index="0">
     <todo-panel id="selected-file">
@@ -1007,7 +999,8 @@
     <MESSAGE value="Test" />
     <MESSAGE value="New CSV" />
     <MESSAGE value="GUI improvement" />
-    <option name="LAST_COMMIT_MESSAGE" value="GUI improvement" />
+    <MESSAGE value="Sliding Menu hinzugefügt" />
+    <option name="LAST_COMMIT_MESSAGE" value="Sliding Menu hinzugefügt" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
