@@ -4,11 +4,13 @@ import android.app.Activity;
 import android.content.Context;
 import android.content.pm.ActivityInfo;
 import android.content.res.AssetManager;
+import android.graphics.Point;
 import android.os.Bundle;
 import android.view.*;
 import android.widget.GridView;
 import android.widget.NumberPicker;
 import beans.Pizza;
+import com.slidingmenu.lib.app.SlidingActivity;
 
 import java.io.BufferedReader;
 import java.io.IOException;
@@ -16,7 +18,7 @@ import java.io.InputStream;
 import java.io.InputStreamReader;
 import java.util.LinkedList;
 
-public class PizzaMainActivity extends Activity {
+public class PizzaMainActivity extends SlidingActivity {
     /**
      * Called when the activity is first created.
      */
@@ -29,7 +31,15 @@ public class PizzaMainActivity extends Activity {
         super.onCreate(savedInstanceState);
         this.requestWindowFeature(Window.FEATURE_NO_TITLE);
         this.setRequestedOrientation(ActivityInfo.SCREEN_ORIENTATION_PORTRAIT);
+
+        Display display = getWindowManager().getDefaultDisplay();
+        Point size = new Point();
+        display.getSize(size);
+        int width = size.x;
+        int height = size.y;
         setContentView(R.layout.main);
+        getSlidingMenu().setBehindOffset(width / 2);
+        setBehindContentView(R.layout.main_menu);
 
         LayoutInflater inflater = (LayoutInflater)this.getSystemService(Context.LAYOUT_INFLATER_SERVICE);
         pizzamain = inflater.inflate(R.layout.pizzamain,null);
