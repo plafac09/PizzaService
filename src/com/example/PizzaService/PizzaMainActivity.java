@@ -8,6 +8,7 @@ import android.graphics.Point;
 import android.os.Bundle;
 import android.view.*;
 import android.widget.GridView;
+import android.widget.ListView;
 import android.widget.NumberPicker;
 import beans.Pizza;
 import com.slidingmenu.lib.app.SlidingActivity;
@@ -52,7 +53,7 @@ public class PizzaMainActivity extends SlidingActivity {
 
     public void showPizzaList()
     {
-        GridView pizzaView = (GridView) findViewById(R.id.pizzaView);
+        ListView pizzaView = (ListView) findViewById(R.id.pizzaView);
         adapter = new PizzaViewAdapter(pizzamain.getContext(), pizzaList);
 
         pizzaView.setAdapter(adapter);

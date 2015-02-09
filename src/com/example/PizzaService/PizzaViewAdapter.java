@@ -7,10 +7,7 @@ import android.graphics.drawable.Drawable;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.BaseAdapter;
-import android.widget.ImageView;
-import android.widget.NumberPicker;
-import android.widget.TextView;
+import android.widget.*;
 import beans.Pizza;
 
 import java.util.LinkedList;
@@ -28,6 +25,12 @@ public class PizzaViewAdapter extends BaseAdapter {
         this.context= context;
         this.pizzaList = pizzaList;
         numberPickers = new NumberPicker[pizzaList.size()];
+       /* for(int i=0;i<pizzaList.size();i++)
+        {
+            numberPickers[i] = new NumberPicker(context);
+            numberPickers[i].setMaxValue(10);
+            numberPickers[i].setMinValue(0);
+        }*/
     }
 
 
@@ -45,7 +48,7 @@ public class PizzaViewAdapter extends BaseAdapter {
 
     @Override
     public long getItemId(int position) {
-        return 0;
+        return position;
     }
 
     @Override
@@ -59,7 +62,7 @@ public class PizzaViewAdapter extends BaseAdapter {
             gridView = inflater.inflate(R.layout.pizzaitem,null);
         }else
         {
-            gridView= convertView;
+            gridView = convertView;
         }
 
         if(position%2==0)
@@ -69,21 +72,25 @@ public class PizzaViewAdapter extends BaseAdapter {
         {
             gridView.setBackgroundColor(Color.rgb(230,132,84));
         }
+
+
         ImageView bild = (ImageView) gridView.findViewById(R.id.pizzaBild);
         TextView nameTV = (TextView) gridView.findViewById(R.id.pizzaItemName);
         TextView preisTV = (TextView) gridView.findViewById(R.id.pizzaItemPreis);
-        NumberPicker anzNP = (NumberPicker) gridView.findViewById(R.id.pizzaItemNP);
+        ViewGroup linlay = (ViewGroup) gridView.findViewById(R.id.numberPickerLayout);
         Pizza aktPizza = pizzaList.get(position);
+        linlay.removeAllViews();
+        System.out.println("pos = "+position);
 
+        linlay.addView(new NumberPicker(context));
 
         Resources res = gridView.getResources();
         int resID = res.getIdentifier(aktPizza.getBild() , "drawable", "com.example.PizzaService");
         Drawable drawable = res.getDrawable(resID);
         bild.setImageDrawable(drawable);
 
-        numberPickers[position]=anzNP;
-        anzNP.setMaxValue(10);
-        anzNP.setMinValue(0);
+
+
         nameTV.setText(aktPizza.getName());
         preisTV.setText(String.format("%5.2f€",aktPizza.getPreis()));
         return gridView;
