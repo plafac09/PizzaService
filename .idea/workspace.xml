@@ -39,24 +39,8 @@
     <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="app: com.example.PizzaService" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8e9ba853-023a-4928-bcbb-b7851062e2d1" name="Default" comment="">
+    <list default="true" id="8e9ba853-023a-4928-bcbb-b7851062e2d1" name="Default" comment="Nauschis Config Changed">
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable/pizzaicon.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/android1_support_v4.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/PizzaService/PizzaService.apk" afterPath="$PROJECT_DIR$/out/production/PizzaService/PizzaService.apk" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/PizzaService/com/example/PizzaService/R$attr.class" afterPath="$PROJECT_DIR$/out/production/PizzaService/com/example/PizzaService/R$attr.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/PizzaService/com/example/PizzaService/R$drawable.class" afterPath="$PROJECT_DIR$/out/production/PizzaService/com/example/PizzaService/R$drawable.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/PizzaService/com/example/PizzaService/R$layout.class" afterPath="$PROJECT_DIR$/out/production/PizzaService/com/example/PizzaService/R$layout.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/PizzaService/com/example/PizzaService/R$string.class" afterPath="$PROJECT_DIR$/out/production/PizzaService/com/example/PizzaService/R$string.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/PizzaService/com/example/PizzaService/R.class" afterPath="$PROJECT_DIR$/out/production/PizzaService/com/example/PizzaService/R.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/example/PizzaService/PizzaMainActivity.java" afterPath="$PROJECT_DIR$/src/com/example/PizzaService/PizzaMainActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PizzaService.iml" afterPath="$PROJECT_DIR$/PizzaService.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/example/PizzaService/PizzaViewAdapter.java" afterPath="$PROJECT_DIR$/src/com/example/PizzaService/PizzaViewAdapter.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SlidingMenuLibrary/SlidingMenuLibrary.iml" afterPath="$PROJECT_DIR$/SlidingMenuLibrary/SlidingMenuLibrary.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/android_support_v4.xml" afterPath="$PROJECT_DIR$/.idea/libraries/android_support_v4.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/layout/pizzaitem.xml" afterPath="$PROJECT_DIR$/res/layout/pizzaitem.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/layout/pizzamain.xml" afterPath="$PROJECT_DIR$/res/layout/pizzamain.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project.properties" afterPath="$PROJECT_DIR$/project.properties" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <list id="9aae603c-1c84-4b9c-8949-a44ed34094c1" name="Failed commit: Default" comment="Test" />
@@ -122,8 +106,8 @@
       <file leaf-file-name="AndroidManifest.xml" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/AndroidManifest.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.5702306" vertical-offset="0" max-vertical-offset="477">
-              <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.4989518" vertical-offset="0" max-vertical-offset="477">
+              <caret line="14" column="18" selection-start-line="14" selection-start-column="18" selection-end-line="14" selection-end-column="18" />
               <folding />
             </state>
           </provider>
@@ -365,7 +349,7 @@
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
-    <property name="project.structure.last.edited" value="Problems" />
+    <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="restartRequiresConfirmation" value="true" />
@@ -695,7 +679,7 @@
       <workItem from="1421327612126" duration="5400000" />
       <workItem from="1421929253048" duration="8786000" />
       <workItem from="1423144824801" duration="1007000" />
-      <workItem from="1423478552989" duration="2968000" />
+      <workItem from="1423478552989" duration="3369000" />
     </task>
     <task id="LOCAL-00001" summary="Haha">
       <created>1415280886157</created>
@@ -823,11 +807,17 @@
       <option name="project" value="LOCAL" />
       <updated>1423145738324</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="Nauschis Config Changed">
+      <created>1423483321720</created>
+      <option name="number" value="00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1423483321720</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="46033000" />
+    <option name="totallyTimeSpent" value="46434000" />
   </component>
   <component name="TodoView" selected-index="0">
     <todo-panel id="selected-file">
@@ -911,7 +901,8 @@
     <MESSAGE value="New CSV" />
     <MESSAGE value="GUI improvement" />
     <MESSAGE value="Sliding Menu hinzugefügt" />
-    <option name="LAST_COMMIT_MESSAGE" value="Sliding Menu hinzugefügt" />
+    <MESSAGE value="Nauschis Config Changed" />
+    <option name="LAST_COMMIT_MESSAGE" value="Nauschis Config Changed" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1382,6 +1373,11 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/res/drawable/margherita.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/library/src/com/slidingmenu/lib/CustomViewAbove.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="2346" max-vertical-offset="16796">
@@ -1394,15 +1390,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/res/drawable/margherita.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/AndroidManifest.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5702306" vertical-offset="0" max-vertical-offset="477">
-          <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.4989518" vertical-offset="0" max-vertical-offset="477">
+          <caret line="14" column="18" selection-start-line="14" selection-start-column="18" selection-end-line="14" selection-end-column="18" />
           <folding />
         </state>
       </provider>
